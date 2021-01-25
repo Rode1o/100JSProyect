@@ -1,0 +1,21 @@
+body {
+  display: block;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+div {
+  border-style: solid;
+  border-width: 2px;
+  display: grid;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  color: black;
+}
+
+button {
+  text-decoration: none;
+  background: none;
+  border: none;
+}
