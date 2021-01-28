@@ -1,6 +1,15 @@
 const button = document.querySelector("button");
 const body = document.querySelector("body");
-const colors = ["red", "green", "blue", "white", "pink", "brown"];
+const colors = [
+  "red",
+  "green",
+  "blue",
+  "white",
+  "pink",
+  "brown",
+  "yellow",
+  "purple",
+];
 body.style.backgroundColor = "orange";
 button.addEventListener("click", changeBackground);
 function changeBackground() {
