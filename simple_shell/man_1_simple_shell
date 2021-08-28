@@ -1,0 +1,40 @@
+%THE SIMPLE_SHELL
+% 25 August 2021
+
+.SH NAME
+
+.B simple_shell
+
+.SH SYNOPSYS
+.PP
+.B ./hsh
+- to runs the shell
+
+.SH DESCRIPTION
+It is a command line that recreates shell
+
+.SH EXAMPLE:
+
+.SS Compilation.
+.PP
+gcc -Wall -Wextra -Werror -pedantic *.c -o hsh
+
+.SS Interaction
+.PP
+.B $ ls /bin/ls
+
+.SS Non Interactive
+.PP
+.B ./hsh
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR(S)
+
+.PP
+Alan Gonzalez
+.PP
+Dickson Carrillo
+.PP
+Yessica Bertel
